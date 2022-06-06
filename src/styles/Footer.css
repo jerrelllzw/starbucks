@@ -1,0 +1,41 @@
+.footer {
+	display: flex;
+	font-size: 12px;
+	background-color: rgb(46, 43, 43);
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.footerBox {
+	padding: 10px;
+}
+
+.footerBox:hover {
+	cursor: pointer;
+}
+
+.homeIcon,
+.cardsIcon,
+.rewardsIcon,
+.historyIcon,
+.moreIcon {
+	width: 23px;
+}
+
+.cardsText,
+.rewardsText,
+.historyText,
+.homeText,
+.moreText {
+	color: rgb(212, 212, 212);
+	font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+	.footer {
+		display: none;
+	}
+}

@@ -1,0 +1,157 @@
+.benefits {
+	flex: 1;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.benefitsContent {
+	margin: 70px auto 100px auto;
+	width: 80%;
+}
+
+.benefitsHeader {
+	margin: 15px 0px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.benefitsMessage {
+	color: #fff;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.items {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 40px 0px;
+}
+
+.image {
+	max-width: 100%;
+	height: auto;
+}
+
+.text {
+	text-align: center;
+	font-size: 16px;
+}
+
+.downloadMessage {
+	color: #fff;
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.downloadMessageMobile {
+	color: black;
+	font-weight: 600;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.storeButtons {
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.appleButton {
+	background-image: url(https://www.starbucks.com.sg/rewards/img/app-store.png);
+}
+
+.googleButton {
+	background-image: url(https://www.starbucks.com.sg/rewards/img/google-play.png);
+}
+
+.appleButton,
+.googleButton {
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 45px;
+	border-style: none;
+	border-radius: 5px;
+}
+
+.appleButton:hover,
+.googleButton:hover {
+	cursor: pointer;
+}
+
+.footerImage {
+	max-width: 100%;
+	height: auto;
+	background-color: #213c35;
+	margin-bottom: 0px;
+}
+
+.secondFooterImage {
+	max-width: 100%;
+	height: 350px;
+	background-image: url(https://www.starbucks.com.sg/rewards/img/bg_app_cta-mobile@2x.jpg);
+	background-size: cover;
+	margin-bottom: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.storeButtonsMobile {
+	display: flex;
+	gap: 5px;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.footerWrapper {
+	margin: 30px;
+}
+
+.itemWrapper {
+	width: 100%;
+	margin: 10px;
+}
+
+.benefitsWrapper {
+	background-color: #213c35;
+}
+
+@media only screen and (max-width: 992px) {
+	.benefits {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.secondFooterImage,
+	.downloadMessageMobile,
+	.storeButtonsMobile {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.secondFooterImage {
+		padding-bottom: 0px;
+	}
+
+	.benefitsContent {
+		padding-bottom: 30px;
+	}
+
+	.benefitsHeader {
+		text-align: center;
+	}
+
+	.downloadMessage,
+	.storeButtons {
+		display: none;
+	}
+}

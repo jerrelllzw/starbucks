@@ -1,0 +1,10 @@
+{
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.tabWidth": 8,
+	"prettier.useTabs": true,
+	"workbench.settings.openDefaultKeybindings": false
+}

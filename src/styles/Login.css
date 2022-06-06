@@ -1,0 +1,206 @@
+.login {
+	flex: 1.4;
+	margin: 10px 0px;
+}
+
+.starbucksRewardsIcon {
+	width: 130px;
+	display: block;
+	margin: 10px auto;
+}
+
+.loginHeader {
+	display: flex;
+	justify-content: center;
+}
+
+.loginHeaderText {
+	font-weight: 300;
+	color: #333537;
+	font-size: 42px;
+	text-align: center;
+	margin: 30px 0px 70px 0px;
+}
+
+.starImage {
+	margin-top: 5px;
+	margin-left: 15px;
+	width: 50px;
+	height: 70px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 10px;
+}
+
+.emailInput,
+.passwordInput {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid grey;
+	background: none;
+	padding: 10px 0;
+	outline: 0;
+	font-size: 16px;
+	align-self: center;
+	margin-bottom: 15px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 431px;
+	margin: 0px auto;
+}
+
+.captcha {
+	display: flex;
+	border-style: solid;
+	border-color: lightgray;
+	border-radius: 3px;
+	background-color: #f9f9f9;
+	width: 300px;
+	align-items: center;
+	margin: 20px 10px 20px 0px;
+	padding: 3px;
+}
+
+#robot {
+	width: 30px;
+	height: 30px;
+	margin: 0px 10px;
+}
+
+#robot:hover,
+.robotText:hover {
+	cursor: pointer;
+}
+
+.captchaContainer {
+	margin: 10px 10px 0px auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.captchaIcon {
+	margin: 0px auto;
+	display: block;
+	width: 60%;
+}
+
+.captchaText {
+	text-align: center;
+	font-size: 10px;
+}
+
+.captchaOptions {
+	display: flex;
+	margin: 10px 0px;
+}
+
+.privacyButton,
+.termsButton {
+	border-style: none;
+	background-color: transparent;
+	font-size: 10px;
+	padding: 2px;
+	color: rgb(129, 124, 124);
+}
+
+.privacyButton:hover,
+.termsButton:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.hyphen {
+	color: rgb(129, 124, 124);
+	text-justify: center;
+}
+
+.loginOptions {
+	display: flex;
+	margin: 30px 0px;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.rememberCheckbox {
+	display: flex;
+	align-items: center;
+}
+
+#remember {
+	width: 18px;
+	height: 18px;
+}
+
+#remember:hover,
+.rememberText:hover {
+	cursor: pointer;
+}
+
+.forgotButton {
+	color: #306e4e;
+	font-weight: 750;
+	background-color: transparent;
+	margin-left: auto;
+	border-style: none;
+}
+
+.forgotButton:hover {
+	cursor: pointer;
+}
+
+.formButtons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.signInButton {
+	border-radius: 100px;
+	font-weight: 700;
+	background: #306e4e;
+	border: 1px solid #306e4e;
+	color: #fff;
+	font-size: medium;
+	width: 100%;
+	margin-right: 10px;
+}
+
+.signInButton:hover {
+	cursor: pointer;
+	background-color: #333537;
+	transition-duration: 0.5s;
+}
+
+.joinNowButton {
+	border-radius: 100px;
+	font-weight: 700;
+	border: 1px solid #306e4e;
+	background: transparent;
+	color: #306e4e;
+	margin-left: 10px;
+	font-size: medium;
+	width: 100%;
+	height: 50px;
+}
+
+.joinNowButton:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+	.login {
+		margin: 0px 50px;
+	}
+
+	.wrapper,
+	.captcha {
+		width: 100%;
+	}
+}
