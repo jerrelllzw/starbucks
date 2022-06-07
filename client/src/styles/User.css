@@ -1,0 +1,100 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.welcome {
+	text-align: center;
+	font-weight: 300;
+	color: #333537;
+	font-size: 42px;
+}
+
+.show {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.showButton {
+	border-radius: 100px;
+	font-weight: 700;
+	background: #306e4e;
+	border: 1px solid #306e4e;
+	color: #fff;
+	font-size: medium;
+	padding: 0px 20px;
+}
+
+.favourites {
+	color: #333537;
+	font-size: 32px;
+	padding: 10px 20px;
+	margin: 0px;
+}
+
+.list {
+	display: flex;
+	margin: 10px;
+}
+
+.listItem {
+	color: #333537;
+	font-size: 22px;
+}
+
+.addMessage {
+	color: #333537;
+	font-size: 20px;
+}
+
+#drink {
+	color: #333537;
+	font-size: 20px;
+}
+
+.logout {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100px;
+	font-weight: 700;
+	background: #306e4e;
+	border: 1px solid #306e4e;
+	color: #fff;
+	font-size: medium;
+	padding: 10px 20px;
+	margin-top: 30px;
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.deleteButton {
+	margin-left: auto;
+	border-radius: 100px;
+	font-weight: 700;
+	background: #306e4e;
+	border: 1px solid #306e4e;
+	color: #fff;
+	font-size: medium;
+	padding: 5px 10px;
+}
+
+.addButton {
+	border-radius: 100px;
+	font-weight: 700;
+	background: #306e4e;
+	border: 1px solid #306e4e;
+	color: #fff;
+	font-size: medium;
+	padding: 10px 20px;
+}
+
+button:hover {
+	cursor: pointer;
+}
